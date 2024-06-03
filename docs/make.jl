@@ -6,7 +6,7 @@ DocMeta.setdocmeta!(MedImage3D, :DocTestSetup, :(using MedImage3D); recursive=tr
 
 makedocs(;
     modules = [MedImage3D],
-    repo = Remotes.GitHub("divital-coder", "MedImage.jl"),
+    repo = Remotes.GitHub("JuliaHealth", "MedImage.jl"),
     authors = "Jakub-Mitura <jakubmitura14@gmail.com>, Divyansh-Goyal <divital2004@gmail.com> and contributors",
     sitename = "MedImage3D.jl",
     format = DocumenterVitepress.MarkdownVitepress(
@@ -20,7 +20,7 @@ makedocs(;
 )
 
 deploydocs(;
-    repo = "https://github.com/JuliaHealth/MedImage.jl.git",
+    repo = "github.com/JuliaHealth/MedImage.jl",
     target = "build", # this is where Vitepress stores its output
     devbranch = "main",
     branch = "gh-pages",
